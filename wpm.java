@@ -34,7 +34,7 @@ class wpm{
 
         String parent="";
         for(int i=0;i<10;i++){     
-        String c = data.words[rand.nextInt(9)];   
+        String c = data.words[rand.nextInt(49)];   
         System.out.print(c +" ");
         parent = parent + c + " ";
         }
